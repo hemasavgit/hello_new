@@ -19,6 +19,7 @@ defmodule HelloNewWeb.Router do
 
     get "/", PageController, :index
     get "/hello", HelloController, :index
+    get "/posts", PostController, :index
   end
 
   # Other scopes may use custom stacks.
